@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 
 export const sendMail = async (email, token, host) => {
   try {
-    console.log(host)
+    // console.log(host)
     var mailOptions = {
       from: "alishkarki220@gmail.com",
       to: email,
